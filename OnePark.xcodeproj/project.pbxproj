@@ -1,0 +1,1430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07550A2C26D7AB6600B17D4B /* NotificationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07550A2B26D7AB6600B17D4B /* NotificationStore.swift */; };
+		07550A3826D8C83D00B17D4B /* RegisterAltView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07550A3726D8C83D00B17D4B /* RegisterAltView.swift */; };
+		07550AA726DA8F1000B17D4B /* DataSnapshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07550AA626DA8F1000B17D4B /* DataSnapshotExtension.swift */; };
+		07550AA926DAF8B000B17D4B /* NotificationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07550AA826DAF8B000B17D4B /* NotificationOptions.swift */; };
+		07550AAB26DAFF0D00B17D4B /* NotificationOptionsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07550AAA26DAFF0D00B17D4B /* NotificationOptionsRepository.swift */; };
+		07550AAD26DB964B00B17D4B /* NotificationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07550AAC26DB964B00B17D4B /* NotificationOperation.swift */; };
+		07550AB026DB9EFA00B17D4B /* HttpConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07550AAF26DB9EFA00B17D4B /* HttpConstants.swift */; };
+		075C3E2A26D4232500257274 /* successAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 075C3E2926D4232500257274 /* successAnimation.json */; };
+		075C3E2C26D423A400257274 /* SuccessAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C3E2B26D423A400257274 /* SuccessAnimationView.swift */; };
+		075C3E2E26D4255900257274 /* 70085-success.json in Resources */ = {isa = PBXBuildFile; fileRef = 075C3E2D26D4255900257274 /* 70085-success.json */; };
+		075C3E3026D44FE400257274 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C3E2F26D44FE400257274 /* MapView.swift */; };
+		075C3E3226D4680E00257274 /* CardDragHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C3E3126D4680E00257274 /* CardDragHandle.swift */; };
+		075F6F8B26CF0E5300855988 /* LinearGradientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F6F8826CF0E5300855988 /* LinearGradientCard.swift */; };
+		075F6F8C26CF0E5300855988 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F6F8A26CF0E5300855988 /* SignInWithApple.swift */; };
+		075F6F9026CF0E8400855988 /* SignInMethodsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F6F8E26CF0E8400855988 /* SignInMethodsController.swift */; };
+		075F6F9126CF0E8400855988 /* CryptoUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F6F8F26CF0E8400855988 /* CryptoUtility.swift */; };
+		075F6F9526CF148300855988 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F6F9426CF148300855988 /* MainView.swift */; };
+		075FC8FE2700622000CF46BD /* TabBarViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC8FD2700622000CF46BD /* TabBarViewStyle.swift */; };
+		075FC9002700753F00CF46BD /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FC8FF2700753F00CF46BD /* Page.swift */; };
+		076A642226CF495A00DD143B /* HomeContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A642126CF495A00DD143B /* HomeContainerView.swift */; };
+		076A642426CF49A300DD143B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A642326CF49A300DD143B /* TabBarView.swift */; };
+		076A642626CF4B0800DD143B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A642526CF4B0800DD143B /* ProfileView.swift */; };
+		076A642A26CFF07400DD143B /* ParkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A642926CFF07400DD143B /* ParkViewModel.swift */; };
+		076A642C26CFF17B00DD143B /* ParkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A642B26CFF17B00DD143B /* ParkRepository.swift */; };
+		076A643526D00E6900DD143B /* ParkingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A643426D00E6900DD143B /* ParkingMode.swift */; };
+		07757C7426DDB84600C0626A /* CircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07757C7326DDB84600C0626A /* CircleProgress.swift */; };
+		07757C7A26DE6ECF00C0626A /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07757C7926DE6ECF00C0626A /* DoubleExtension.swift */; };
+		07886DF826E7EEF20009D62D /* ApplicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07886DF726E7EEF20009D62D /* ApplicationViewModel.swift */; };
+		07886DFA26E7EF2F0009D62D /* ValidationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07886DF926E7EF2F0009D62D /* ValidationUtility.swift */; };
+		07886DFC26E7EF650009D62D /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07886DFB26E7EF650009D62D /* ValidationError.swift */; };
+		07886DFF26E8C2300009D62D /* KeyboardPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07886DFE26E8C2300009D62D /* KeyboardPicker.swift */; };
+		0796459826D113370063E7A1 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796459726D113370063E7A1 /* DateUtility.swift */; };
+		0796459A26D118040063E7A1 /* PasswordUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796459926D118040063E7A1 /* PasswordUtility.swift */; };
+		0796459E26D118F10063E7A1 /* PasswordValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0796459D26D118F10063E7A1 /* PasswordValidation.swift */; };
+		079645A126D119410063E7A1 /* PasswordRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079645A026D119410063E7A1 /* PasswordRules.swift */; };
+		079645A326D119720063E7A1 /* PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079645A226D119720063E7A1 /* PasswordStrength.swift */; };
+		079645A726D172BF0063E7A1 /* OverlayProgressModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079645A626D172BF0063E7A1 /* OverlayProgressModifier.swift */; };
+		079645A926D177E20063E7A1 /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079645A826D177E20063E7A1 /* ShapeType.swift */; };
+		079645AB26D178290063E7A1 /* ShapeUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079645AA26D178290063E7A1 /* ShapeUtility.swift */; };
+		079645AE26D17EC10063E7A1 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079645AD26D17EC10063E7A1 /* ColorExtension.swift */; };
+		079645B226D25A790063E7A1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079645B126D25A790063E7A1 /* StringExtension.swift */; };
+		079645B426D264C80063E7A1 /* SideNotesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079645B326D264C80063E7A1 /* SideNotesCard.swift */; };
+		07A82A1726CF326C00242786 /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A82A1626CF326C00242786 /* DataError.swift */; };
+		07A82A1926CF366900242786 /* ParkFinderMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A82A1826CF366900242786 /* ParkFinderMapView.swift */; };
+		07B7987A26E3CDFB00CC6D46 /* CardFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B7987926E3CDFB00CC6D46 /* CardFieldModifier.swift */; };
+		07BD4A5E26E4BFED004B00C5 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BD4A5D26E4BFED004B00C5 /* Operators.swift */; };
+		07C145B326D3E57500E562BE /* BottomCardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C145B226D3E57500E562BE /* BottomCardModifier.swift */; };
+		07C904CF26E9356400B7C3EE /* VehicleCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C904CE26E9356400B7C3EE /* VehicleCardItem.swift */; };
+		07C904D126ED132E00B7C3EE /* ApplicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C904D026ED132E00B7C3EE /* ApplicationError.swift */; };
+		07C904D326ED261300B7C3EE /* ParkConfirmationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C904D226ED261300B7C3EE /* ParkConfirmationCardView.swift */; };
+		07C904D526ED294200B7C3EE /* UserVehicleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C904D426ED294200B7C3EE /* UserVehicleInfoView.swift */; };
+		07C904D726EFC5A300B7C3EE /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C904D626EFC5A300B7C3EE /* UserProgress.swift */; };
+		07CD058C26D293260080144C /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD058B26D293260080144C /* CloseButton.swift */; };
+		07CD059126D307860080144C /* ParkManagerMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD059026D307850080144C /* ParkManagerMapView.swift */; };
+		07CD059426D310C60080144C /* BlurViewCardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD059326D310C60080144C /* BlurViewCardModifier.swift */; };
+		07CD059926D333560080144C /* ParkingUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD059826D333560080144C /* ParkingUser.swift */; };
+		07CD059C26D384880080144C /* MapUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD059B26D384880080144C /* MapUtility.swift */; };
+		07CD05A126D386560080144C /* ParkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD05A026D386560080144C /* ParkAnnotation.swift */; };
+		07CD05A326D389310080144C /* ParkModeAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD05A226D389300080144C /* ParkModeAnnotationView.swift */; };
+		07D7900426E1BD910095BACA /* PropertyManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7900326E1BD910095BACA /* PropertyManagerView.swift */; };
+		07D7900626E3566A0095BACA /* LicensePlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7900526E3566A0095BACA /* LicensePlate.swift */; };
+		07D7900826E35A810095BACA /* rubik.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07D7900726E35A740095BACA /* rubik.ttf */; };
+		07D7900A26E367EF0095BACA /* AddPropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7900926E367EF0095BACA /* AddPropertyView.swift */; };
+		07D7900C26E38C1E0095BACA /* KeyValuePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7900B26E38C1E0095BACA /* KeyValuePair.swift */; };
+		07D8AE5826DEF752004488E8 /* MapExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE5726DEF752004488E8 /* MapExtension.swift */; };
+		07D8AE5C26DF1A11004488E8 /* PersonalInfoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE5B26DF1A11004488E8 /* PersonalInfoDataView.swift */; };
+		07D8AE5E26DF1AC2004488E8 /* FieldCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE5D26DF1AC2004488E8 /* FieldCard.swift */; };
+		07D8AE6026E0D84D004488E8 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE5F26E0D84D004488E8 /* Vehicle.swift */; };
+		07D8AE6226E0DFB6004488E8 /* FuelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE6126E0DFB6004488E8 /* FuelType.swift */; };
+		07D8AE6426E0E017004488E8 /* UserVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE6326E0E017004488E8 /* UserVehicle.swift */; };
+		07D8AE6626E0FA71004488E8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE6526E0FA71004488E8 /* User.swift */; };
+		07D8AE6826E100B7004488E8 /* AnnotationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE6726E100B7004488E8 /* AnnotationCardView.swift */; };
+		07D8AE6A26E104F5004488E8 /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE6926E104F5004488E8 /* VehicleViewModel.swift */; };
+		07D8AE6E26E1062C004488E8 /* VehicleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE6D26E1062C004488E8 /* VehicleRepository.swift */; };
+		07D8AE7026E10CA7004488E8 /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE6F26E10CA7004488E8 /* VehicleType.swift */; };
+		07D8AE7426E18B9B004488E8 /* bungee.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07D8AE7326E18A64004488E8 /* bungee.ttf */; };
+		07D8AE7626E18D2D004488E8 /* DummyObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE7526E18D2D004488E8 /* DummyObjects.swift */; };
+		07D8AE7E26E19FAC004488E8 /* AcessConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AE7D26E19FAC004488E8 /* AcessConstants.swift */; };
+		07DC357626E77D2700FE4417 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC357526E77D2700FE4417 /* Lottie */; };
+		07DC357926E77D3000FE4417 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC357826E77D3000FE4417 /* SDWebImageSwiftUI */; };
+		07DC357C26E77D3B00FE4417 /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC357B26E77D3B00FE4417 /* Contentful */; };
+		07DC358026E782C800FE4417 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC357F26E782C800FE4417 /* FirebaseAnalytics */; };
+		07DC358226E782C800FE4417 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC358126E782C800FE4417 /* FirebaseAnalyticsSwift-Beta */; };
+		07DC358426E782C800FE4417 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC358326E782C800FE4417 /* FirebaseAuth */; };
+		07DC358626E782C800FE4417 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC358526E782C800FE4417 /* FirebaseDatabase */; };
+		07DC358826E782C800FE4417 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC358726E782C800FE4417 /* FirebaseFirestore */; };
+		07DC358A26E782C800FE4417 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC358926E782C800FE4417 /* FirebaseFirestoreSwift-Beta */; };
+		07DC358C26E782C800FE4417 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC358B26E782C800FE4417 /* FirebaseMessaging */; };
+		07DC358E26E782C800FE4417 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC358D26E782C800FE4417 /* FirebaseStorage */; };
+		07DC359026E782C800FE4417 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC358F26E782C800FE4417 /* FirebaseStorageSwift-Beta */; };
+		07DC359226E7DB8A00FE4417 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 07DC359126E7DB8A00FE4417 /* FirebaseDatabaseSwift-Beta */; };
+		07DC359626E7E8DA00FE4417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DC359526E7E8DA00FE4417 /* Assets.xcassets */; };
+		07DE6B1E26D663C000AF8C69 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE6B1D26D663C000AF8C69 /* AuthError.swift */; };
+		07DE6B2026D69ABA00AF8C69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07DE6B1F26D69ABA00AF8C69 /* GoogleService-Info.plist */; };
+		07EE677A26DD3427009B7E46 /* ParkTogglesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE677926DD3427009B7E46 /* ParkTogglesCard.swift */; };
+		07EE677C26DD4223009B7E46 /* ParkingModeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE677B26DD4223009B7E46 /* ParkingModeCard.swift */; };
+		07EE678026DD553A009B7E46 /* BouncyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE677F26DD553A009B7E46 /* BouncyButtonStyle.swift */; };
+		07EE678226DD5739009B7E46 /* DrivingTowardsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE678126DD5739009B7E46 /* DrivingTowardsList.swift */; };
+		07FBEA1F26E535D700E5C6A0 /* LabelTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FBEA1E26E535D700E5C6A0 /* LabelTextModifier.swift */; };
+		A71EC0E126CC627F007A4890 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71EC0E026CC627F007A4890 /* UserRepository.swift */; };
+		A71EC0E426CC6407007A4890 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71EC0E326CC6407007A4890 /* UserInfo.swift */; };
+		A7376A1726CBE05F00E3F493 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7376A1626CBE05F00E3F493 /* HomeView.swift */; };
+		A742BA9026CD7CD9003D2281 /* CircleProgressButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742BA8F26CD7CD9003D2281 /* CircleProgressButtonModifier.swift */; };
+		A744851426E56AD30059252C /* BindingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744851326E56AD30059252C /* BindingExtension.swift */; };
+		A74F073026CA9F0B00F8C67F /* OneParkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F072F26CA9F0B00F8C67F /* OneParkApp.swift */; };
+		A74F073226CA9F0B00F8C67F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F073126CA9F0B00F8C67F /* ContentView.swift */; };
+		A74F073726CA9F0C00F8C67F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74F073626CA9F0C00F8C67F /* Preview Assets.xcassets */; };
+		A74F073926CA9F0C00F8C67F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F073826CA9F0C00F8C67F /* Persistence.swift */; };
+		A74F073C26CA9F0C00F8C67F /* OnePark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A74F073A26CA9F0C00F8C67F /* OnePark.xcdatamodeld */; };
+		A74F074726CA9F0D00F8C67F /* OneParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F074626CA9F0D00F8C67F /* OneParkTests.swift */; };
+		A74F075226CA9F0D00F8C67F /* OneParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F075126CA9F0D00F8C67F /* OneParkUITests.swift */; };
+		A74F076226CA9F7300F8C67F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F076126CA9F7300F8C67F /* LoginView.swift */; };
+		A74F076A26CAD34D00F8C67F /* FeedbackUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F076926CAD34D00F8C67F /* FeedbackUtility.swift */; };
+		A7C95F9C26CB13E500881EC3 /* loadingAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = A7C95F9B26CB13E500881EC3 /* loadingAnimation.json */; };
+		A7C95F9E26CB145300881EC3 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C95F9D26CB145300881EC3 /* LottieView.swift */; };
+		A7C95FA026CB163F00881EC3 /* LoadingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C95F9F26CB163F00881EC3 /* LoadingAnimationView.swift */; };
+		A7C95FA226CB1F4500881EC3 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C95FA126CB1F4500881EC3 /* BlurView.swift */; };
+		A7C95FAF26CB340D00881EC3 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C95FAE26CB340D00881EC3 /* UserViewModel.swift */; };
+		A7C95FB126CBC99F00881EC3 /* UIResponsiveUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C95FB026CBC99F00881EC3 /* UIResponsiveUtility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74F074326CA9F0D00F8C67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74F072426CA9F0B00F8C67F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74F072B26CA9F0B00F8C67F;
+			remoteInfo = OnePark;
+		};
+		A74F074E26CA9F0D00F8C67F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74F072426CA9F0B00F8C67F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74F072B26CA9F0B00F8C67F;
+			remoteInfo = OnePark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07550A2B26D7AB6600B17D4B /* NotificationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStore.swift; sourceTree = "<group>"; };
+		07550A3726D8C83D00B17D4B /* RegisterAltView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAltView.swift; sourceTree = "<group>"; };
+		07550AA626DA8F1000B17D4B /* DataSnapshotExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSnapshotExtension.swift; sourceTree = "<group>"; };
+		07550AA826DAF8B000B17D4B /* NotificationOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOptions.swift; sourceTree = "<group>"; };
+		07550AAA26DAFF0D00B17D4B /* NotificationOptionsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOptionsRepository.swift; sourceTree = "<group>"; };
+		07550AAC26DB964B00B17D4B /* NotificationOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOperation.swift; sourceTree = "<group>"; };
+		07550AAF26DB9EFA00B17D4B /* HttpConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpConstants.swift; sourceTree = "<group>"; };
+		075C3E2926D4232500257274 /* successAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successAnimation.json; sourceTree = "<group>"; };
+		075C3E2B26D423A400257274 /* SuccessAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessAnimationView.swift; sourceTree = "<group>"; };
+		075C3E2D26D4255900257274 /* 70085-success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "70085-success.json"; sourceTree = "<group>"; };
+		075C3E2F26D44FE400257274 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		075C3E3126D4680E00257274 /* CardDragHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDragHandle.swift; sourceTree = "<group>"; };
+		075F6F8826CF0E5300855988 /* LinearGradientCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinearGradientCard.swift; path = OnePark/Components/Cards/LinearGradientCard.swift; sourceTree = SOURCE_ROOT; };
+		075F6F8A26CF0E5300855988 /* SignInWithApple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		075F6F8E26CF0E8400855988 /* SignInMethodsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInMethodsController.swift; sourceTree = "<group>"; };
+		075F6F8F26CF0E8400855988 /* CryptoUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoUtility.swift; sourceTree = "<group>"; };
+		075F6F9426CF148300855988 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		075FC8FD2700622000CF46BD /* TabBarViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewStyle.swift; sourceTree = "<group>"; };
+		075FC8FF2700753F00CF46BD /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		075FC9012700843100CF46BD /* josefine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = josefine.ttf; sourceTree = "<group>"; };
+		075FC902270120A700CF46BD /* fabrica.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fabrica.otf; sourceTree = "<group>"; };
+		076A642126CF495A00DD143B /* HomeContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerView.swift; sourceTree = "<group>"; };
+		076A642326CF49A300DD143B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		076A642526CF4B0800DD143B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		076A642926CFF07400DD143B /* ParkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkViewModel.swift; sourceTree = "<group>"; };
+		076A642B26CFF17B00DD143B /* ParkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkRepository.swift; sourceTree = "<group>"; };
+		076A643426D00E6900DD143B /* ParkingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingMode.swift; sourceTree = "<group>"; };
+		07757C7326DDB84600C0626A /* CircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
+		07757C7926DE6ECF00C0626A /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		07886DF726E7EEF20009D62D /* ApplicationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationViewModel.swift; sourceTree = "<group>"; };
+		07886DF926E7EF2F0009D62D /* ValidationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationUtility.swift; sourceTree = "<group>"; };
+		07886DFB26E7EF650009D62D /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		07886DFE26E8C2300009D62D /* KeyboardPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardPicker.swift; sourceTree = "<group>"; };
+		0796459726D113370063E7A1 /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		0796459926D118040063E7A1 /* PasswordUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUtility.swift; sourceTree = "<group>"; };
+		0796459D26D118F10063E7A1 /* PasswordValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidation.swift; sourceTree = "<group>"; };
+		079645A026D119410063E7A1 /* PasswordRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRules.swift; sourceTree = "<group>"; };
+		079645A226D119720063E7A1 /* PasswordStrength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStrength.swift; sourceTree = "<group>"; };
+		079645A626D172BF0063E7A1 /* OverlayProgressModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayProgressModifier.swift; sourceTree = "<group>"; };
+		079645A826D177E20063E7A1 /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
+		079645AA26D178290063E7A1 /* ShapeUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeUtility.swift; sourceTree = "<group>"; };
+		079645AD26D17EC10063E7A1 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		079645B126D25A790063E7A1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		079645B326D264C80063E7A1 /* SideNotesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNotesCard.swift; sourceTree = "<group>"; };
+		07A82A1626CF326C00242786 /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		07A82A1826CF366900242786 /* ParkFinderMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkFinderMapView.swift; sourceTree = "<group>"; };
+		07B7987926E3CDFB00CC6D46 /* CardFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFieldModifier.swift; sourceTree = "<group>"; };
+		07BD4A5D26E4BFED004B00C5 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		07C145B226D3E57500E562BE /* BottomCardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardModifier.swift; sourceTree = "<group>"; };
+		07C904CE26E9356400B7C3EE /* VehicleCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCardItem.swift; sourceTree = "<group>"; };
+		07C904D026ED132E00B7C3EE /* ApplicationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationError.swift; sourceTree = "<group>"; };
+		07C904D226ED261300B7C3EE /* ParkConfirmationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkConfirmationCardView.swift; sourceTree = "<group>"; };
+		07C904D426ED294200B7C3EE /* UserVehicleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVehicleInfoView.swift; sourceTree = "<group>"; };
+		07C904D626EFC5A300B7C3EE /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
+		07CD058B26D293260080144C /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		07CD059026D307850080144C /* ParkManagerMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkManagerMapView.swift; sourceTree = "<group>"; };
+		07CD059326D310C60080144C /* BlurViewCardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewCardModifier.swift; sourceTree = "<group>"; };
+		07CD059826D333560080144C /* ParkingUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingUser.swift; sourceTree = "<group>"; };
+		07CD059B26D384880080144C /* MapUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUtility.swift; sourceTree = "<group>"; };
+		07CD05A026D386560080144C /* ParkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAnnotation.swift; sourceTree = "<group>"; };
+		07CD05A226D389300080144C /* ParkModeAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkModeAnnotationView.swift; sourceTree = "<group>"; };
+		07D7900326E1BD910095BACA /* PropertyManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyManagerView.swift; sourceTree = "<group>"; };
+		07D7900526E3566A0095BACA /* LicensePlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicensePlate.swift; sourceTree = "<group>"; };
+		07D7900726E35A740095BACA /* rubik.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rubik.ttf; sourceTree = "<group>"; };
+		07D7900926E367EF0095BACA /* AddPropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPropertyView.swift; sourceTree = "<group>"; };
+		07D7900B26E38C1E0095BACA /* KeyValuePair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValuePair.swift; sourceTree = "<group>"; };
+		07D8AE5726DEF752004488E8 /* MapExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExtension.swift; sourceTree = "<group>"; };
+		07D8AE5B26DF1A11004488E8 /* PersonalInfoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoDataView.swift; sourceTree = "<group>"; };
+		07D8AE5D26DF1AC2004488E8 /* FieldCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldCard.swift; sourceTree = "<group>"; };
+		07D8AE5F26E0D84D004488E8 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		07D8AE6126E0DFB6004488E8 /* FuelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelType.swift; sourceTree = "<group>"; };
+		07D8AE6326E0E017004488E8 /* UserVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVehicle.swift; sourceTree = "<group>"; };
+		07D8AE6526E0FA71004488E8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		07D8AE6726E100B7004488E8 /* AnnotationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationCardView.swift; sourceTree = "<group>"; };
+		07D8AE6926E104F5004488E8 /* VehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
+		07D8AE6D26E1062C004488E8 /* VehicleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleRepository.swift; sourceTree = "<group>"; };
+		07D8AE6F26E10CA7004488E8 /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
+		07D8AE7326E18A64004488E8 /* bungee.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bungee.ttf; sourceTree = "<group>"; };
+		07D8AE7526E18D2D004488E8 /* DummyObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyObjects.swift; sourceTree = "<group>"; };
+		07D8AE7D26E19FAC004488E8 /* AcessConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessConstants.swift; sourceTree = "<group>"; };
+		07DC359526E7E8DA00FE4417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07DE6B1D26D663C000AF8C69 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
+		07DE6B1F26D69ABA00AF8C69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07EE677926DD3427009B7E46 /* ParkTogglesCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkTogglesCard.swift; sourceTree = "<group>"; };
+		07EE677B26DD4223009B7E46 /* ParkingModeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingModeCard.swift; sourceTree = "<group>"; };
+		07EE677F26DD553A009B7E46 /* BouncyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyButtonStyle.swift; sourceTree = "<group>"; };
+		07EE678126DD5739009B7E46 /* DrivingTowardsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingTowardsList.swift; sourceTree = "<group>"; };
+		07FBEA1E26E535D700E5C6A0 /* LabelTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTextModifier.swift; sourceTree = "<group>"; };
+		A71EC0E026CC627F007A4890 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		A71EC0E326CC6407007A4890 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A7376A1126CBD7DC00E3F493 /* OnePark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OnePark.entitlements; sourceTree = "<group>"; };
+		A7376A1326CBD7E100E3F493 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A7376A1626CBE05F00E3F493 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A742BA8F26CD7CD9003D2281 /* CircleProgressButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressButtonModifier.swift; sourceTree = "<group>"; };
+		A744851326E56AD30059252C /* BindingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtension.swift; sourceTree = "<group>"; };
+		A74F072C26CA9F0B00F8C67F /* OnePark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F072F26CA9F0B00F8C67F /* OneParkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneParkApp.swift; sourceTree = "<group>"; };
+		A74F073126CA9F0B00F8C67F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A74F073626CA9F0C00F8C67F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A74F073826CA9F0C00F8C67F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A74F073B26CA9F0C00F8C67F /* OnePark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnePark.xcdatamodel; sourceTree = "<group>"; };
+		A74F073D26CA9F0C00F8C67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74F074226CA9F0D00F8C67F /* OneParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F074626CA9F0D00F8C67F /* OneParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneParkTests.swift; sourceTree = "<group>"; };
+		A74F074826CA9F0D00F8C67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74F074D26CA9F0D00F8C67F /* OneParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneParkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F075126CA9F0D00F8C67F /* OneParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneParkUITests.swift; sourceTree = "<group>"; };
+		A74F075326CA9F0D00F8C67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74F076126CA9F7300F8C67F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A74F076926CAD34D00F8C67F /* FeedbackUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackUtility.swift; sourceTree = "<group>"; };
+		A7C95F9B26CB13E500881EC3 /* loadingAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingAnimation.json; sourceTree = "<group>"; };
+		A7C95F9D26CB145300881EC3 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		A7C95F9F26CB163F00881EC3 /* LoadingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationView.swift; sourceTree = "<group>"; };
+		A7C95FA126CB1F4500881EC3 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		A7C95FAE26CB340D00881EC3 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		A7C95FB026CBC99F00881EC3 /* UIResponsiveUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponsiveUtility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74F072926CA9F0B00F8C67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DC358226E782C800FE4417 /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				07DC358426E782C800FE4417 /* FirebaseAuth in Frameworks */,
+				07DC358C26E782C800FE4417 /* FirebaseMessaging in Frameworks */,
+				07DC357926E77D3000FE4417 /* SDWebImageSwiftUI in Frameworks */,
+				07DC357626E77D2700FE4417 /* Lottie in Frameworks */,
+				07DC359026E782C800FE4417 /* FirebaseStorageSwift-Beta in Frameworks */,
+				07DC359226E7DB8A00FE4417 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				07DC358026E782C800FE4417 /* FirebaseAnalytics in Frameworks */,
+				07DC358826E782C800FE4417 /* FirebaseFirestore in Frameworks */,
+				07DC358A26E782C800FE4417 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				07DC358E26E782C800FE4417 /* FirebaseStorage in Frameworks */,
+				07DC358626E782C800FE4417 /* FirebaseDatabase in Frameworks */,
+				07DC357C26E77D3B00FE4417 /* Contentful in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F073F26CA9F0D00F8C67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F074A26CA9F0D00F8C67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07550AAE26DB965300B17D4B /* HttpEntities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HttpEntities;
+			sourceTree = "<group>";
+		};
+		075F6F8926CF0E5300855988 /* SignInMethods */ = {
+			isa = PBXGroup;
+			children = (
+				075F6F8A26CF0E5300855988 /* SignInWithApple.swift */,
+			);
+			name = SignInMethods;
+			path = OnePark/Components/SignInMethods;
+			sourceTree = SOURCE_ROOT;
+		};
+		075F6F8D26CF0E8400855988 /* SignInMethods */ = {
+			isa = PBXGroup;
+			children = (
+				075F6F8E26CF0E8400855988 /* SignInMethodsController.swift */,
+			);
+			name = SignInMethods;
+			path = OnePark/Utility/SignInMethods;
+			sourceTree = "<group>";
+		};
+		076A641C26CF48F600DD143B /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				076A642126CF495A00DD143B /* HomeContainerView.swift */,
+				07EE678126DD5739009B7E46 /* DrivingTowardsList.swift */,
+				07D8AE5B26DF1A11004488E8 /* PersonalInfoDataView.swift */,
+				07D8AE6726E100B7004488E8 /* AnnotationCardView.swift */,
+				07D7900926E367EF0095BACA /* AddPropertyView.swift */,
+				07C904CE26E9356400B7C3EE /* VehicleCardItem.swift */,
+				07C904D226ED261300B7C3EE /* ParkConfirmationCardView.swift */,
+				07C904D426ED294200B7C3EE /* UserVehicleInfoView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		076A643326D00E5A00DD143B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				076A643426D00E6900DD143B /* ParkingMode.swift */,
+				079645A226D119720063E7A1 /* PasswordStrength.swift */,
+				079645A826D177E20063E7A1 /* ShapeType.swift */,
+				07D8AE6126E0DFB6004488E8 /* FuelType.swift */,
+				07D8AE6F26E10CA7004488E8 /* VehicleType.swift */,
+				075FC8FF2700753F00CF46BD /* Page.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0796459B26D118080063E7A1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				0796459926D118040063E7A1 /* PasswordUtility.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		0796459C26D118C60063E7A1 /* StateObjects */ = {
+			isa = PBXGroup;
+			children = (
+				0796459D26D118F10063E7A1 /* PasswordValidation.swift */,
+			);
+			path = StateObjects;
+			sourceTree = "<group>";
+		};
+		0796459F26D119320063E7A1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				079645A026D119410063E7A1 /* PasswordRules.swift */,
+				07550AAF26DB9EFA00B17D4B /* HttpConstants.swift */,
+				07D8AE7D26E19FAC004488E8 /* AcessConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		079645A526D172A50063E7A1 /* Interactive */ = {
+			isa = PBXGroup;
+			children = (
+				079645A626D172BF0063E7A1 /* OverlayProgressModifier.swift */,
+			);
+			path = Interactive;
+			sourceTree = "<group>";
+		};
+		079645AC26D17EB50063E7A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				079645AD26D17EC10063E7A1 /* ColorExtension.swift */,
+				079645B126D25A790063E7A1 /* StringExtension.swift */,
+				07550AA626DA8F1000B17D4B /* DataSnapshotExtension.swift */,
+				07757C7926DE6ECF00C0626A /* DoubleExtension.swift */,
+				07D8AE5726DEF752004488E8 /* MapExtension.swift */,
+				A744851326E56AD30059252C /* BindingExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		07A82A1526CF325E00242786 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				07886DFB26E7EF650009D62D /* ValidationError.swift */,
+				07A82A1626CF326C00242786 /* DataError.swift */,
+				07DE6B1D26D663C000AF8C69 /* AuthError.swift */,
+				07C904D026ED132E00B7C3EE /* ApplicationError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		07CD058A26D2931C0080144C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				07CD058B26D293260080144C /* CloseButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		07CD059226D310B80080144C /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				07CD059326D310C60080144C /* BlurViewCardModifier.swift */,
+				07C145B226D3E57500E562BE /* BottomCardModifier.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		07CD059526D317280080144C /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				07EE677926DD3427009B7E46 /* ParkTogglesCard.swift */,
+				079645B326D264C80063E7A1 /* SideNotesCard.swift */,
+				075F6F8826CF0E5300855988 /* LinearGradientCard.swift */,
+				075C3E3126D4680E00257274 /* CardDragHandle.swift */,
+				07EE677B26DD4223009B7E46 /* ParkingModeCard.swift */,
+				07D8AE5D26DF1AC2004488E8 /* FieldCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		07CD059A26D384690080144C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A74F076926CAD34D00F8C67F /* FeedbackUtility.swift */,
+				0796459726D113370063E7A1 /* DateUtility.swift */,
+				A7C95FB026CBC99F00881EC3 /* UIResponsiveUtility.swift */,
+				079645AA26D178290063E7A1 /* ShapeUtility.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		07CD059F26D386230080144C /* MapComponents */ = {
+			isa = PBXGroup;
+			children = (
+				07A82A1826CF366900242786 /* ParkFinderMapView.swift */,
+				07CD05A026D386560080144C /* ParkAnnotation.swift */,
+				07CD05A226D389300080144C /* ParkModeAnnotationView.swift */,
+				075C3E2F26D44FE400257274 /* MapView.swift */,
+			);
+			path = MapComponents;
+			sourceTree = "<group>";
+		};
+		07D8AE6B26E104FE004488E8 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				07D8AE6926E104F5004488E8 /* VehicleViewModel.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		07D8AE6C26E10605004488E8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A71EC0E026CC627F007A4890 /* UserRepository.swift */,
+				076A642B26CFF17B00DD143B /* ParkRepository.swift */,
+				07550AAA26DAFF0D00B17D4B /* NotificationOptionsRepository.swift */,
+				07D8AE6D26E1062C004488E8 /* VehicleRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		07D8AE7126E18A50004488E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07D8AE7226E18A57004488E8 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07D8AE7226E18A57004488E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				075FC902270120A700CF46BD /* fabrica.otf */,
+				075FC9012700843100CF46BD /* josefine.ttf */,
+				07D7900726E35A740095BACA /* rubik.ttf */,
+				07D8AE7326E18A64004488E8 /* bungee.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		07EE677D26DD550E009B7E46 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				07EE677E26DD551E009B7E46 /* StyleConfigurations */,
+				A74F076326CACC1D00F8C67F /* Modifiers */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		07EE677E26DD551E009B7E46 /* StyleConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				07EE677F26DD553A009B7E46 /* BouncyButtonStyle.swift */,
+				075FC8FD2700622000CF46BD /* TabBarViewStyle.swift */,
+			);
+			path = StyleConfigurations;
+			sourceTree = "<group>";
+		};
+		07FBEA1D26E535C500E5C6A0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				07FBEA1E26E535D700E5C6A0 /* LabelTextModifier.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A71EC0DF26CC6269007A4890 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07D8AE6C26E10605004488E8 /* Repository */,
+				0796459C26D118C60063E7A1 /* StateObjects */,
+				076A643326D00E5A00DD143B /* Enums */,
+				07A82A1526CF325E00242786 /* Errors */,
+				A71EC0E226CC63F3007A4890 /* Entities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A71EC0E226CC63F3007A4890 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				07550AAE26DB965300B17D4B /* HttpEntities */,
+				A71EC0E326CC6407007A4890 /* UserInfo.swift */,
+				07CD059826D333560080144C /* ParkingUser.swift */,
+				07550AA826DAF8B000B17D4B /* NotificationOptions.swift */,
+				07550AAC26DB964B00B17D4B /* NotificationOperation.swift */,
+				07D8AE5F26E0D84D004488E8 /* Vehicle.swift */,
+				07D8AE6326E0E017004488E8 /* UserVehicle.swift */,
+				07D8AE6526E0FA71004488E8 /* User.swift */,
+				07D7900B26E38C1E0095BACA /* KeyValuePair.swift */,
+				07C904D626EFC5A300B7C3EE /* UserProgress.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A7376A1226CBD7E100E3F493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7376A1326CBD7E100E3F493 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7376A1826CBE06400E3F493 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				076A641C26CF48F600DD143B /* Subviews */,
+				A74F076126CA9F7300F8C67F /* LoginView.swift */,
+				07550A3726D8C83D00B17D4B /* RegisterAltView.swift */,
+				A7376A1626CBE05F00E3F493 /* HomeView.swift */,
+				075F6F9426CF148300855988 /* MainView.swift */,
+				076A642326CF49A300DD143B /* TabBarView.swift */,
+				076A642526CF4B0800DD143B /* ProfileView.swift */,
+				07CD059026D307850080144C /* ParkManagerMapView.swift */,
+				07D7900326E1BD910095BACA /* PropertyManagerView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		A7376A1926CBE07100E3F493 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				07CD059F26D386230080144C /* MapComponents */,
+				07CD059526D317280080144C /* Cards */,
+				07CD058A26D2931C0080144C /* Buttons */,
+				079645AC26D17EB50063E7A1 /* Extensions */,
+				A7C95FA126CB1F4500881EC3 /* BlurView.swift */,
+				07757C7326DDB84600C0626A /* CircleProgress.swift */,
+				07D7900526E3566A0095BACA /* LicensePlate.swift */,
+				07886DFE26E8C2300009D62D /* KeyboardPicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A74F072326CA9F0B00F8C67F = {
+			isa = PBXGroup;
+			children = (
+				075F6F8D26CF0E8400855988 /* SignInMethods */,
+				A74F072E26CA9F0B00F8C67F /* OnePark */,
+				A74F074526CA9F0D00F8C67F /* OneParkTests */,
+				A74F075026CA9F0D00F8C67F /* OneParkUITests */,
+				A74F072D26CA9F0B00F8C67F /* Products */,
+				A7376A1226CBD7E100E3F493 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A74F072D26CA9F0B00F8C67F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74F072C26CA9F0B00F8C67F /* OnePark.app */,
+				A74F074226CA9F0D00F8C67F /* OneParkTests.xctest */,
+				A74F074D26CA9F0D00F8C67F /* OneParkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74F072E26CA9F0B00F8C67F /* OnePark */ = {
+			isa = PBXGroup;
+			children = (
+				07D8AE7126E18A50004488E8 /* Resources */,
+				07EE677D26DD550E009B7E46 /* Style */,
+				A71EC0DF26CC6269007A4890 /* Model */,
+				A7376A1926CBE07100E3F493 /* Components */,
+				A7376A1826CBE06400E3F493 /* Pages */,
+				A7376A1126CBD7DC00E3F493 /* OnePark.entitlements */,
+				07DE6B1F26D69ABA00AF8C69 /* GoogleService-Info.plist */,
+				A7C95FAC26CB33F300881EC3 /* DataStores */,
+				A7C95F9A26CB13C900881EC3 /* Animations */,
+				A74F076826CAD33700F8C67F /* Utility */,
+				A74F072F26CA9F0B00F8C67F /* OneParkApp.swift */,
+				A74F073126CA9F0B00F8C67F /* ContentView.swift */,
+				A74F073826CA9F0C00F8C67F /* Persistence.swift */,
+				07DC359526E7E8DA00FE4417 /* Assets.xcassets */,
+				A74F073D26CA9F0C00F8C67F /* Info.plist */,
+				A74F073A26CA9F0C00F8C67F /* OnePark.xcdatamodeld */,
+				A74F073526CA9F0C00F8C67F /* Preview Content */,
+			);
+			path = OnePark;
+			sourceTree = "<group>";
+		};
+		A74F073526CA9F0C00F8C67F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A74F073626CA9F0C00F8C67F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A74F074526CA9F0D00F8C67F /* OneParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74F074626CA9F0D00F8C67F /* OneParkTests.swift */,
+				A74F074826CA9F0D00F8C67F /* Info.plist */,
+			);
+			path = OneParkTests;
+			sourceTree = "<group>";
+		};
+		A74F075026CA9F0D00F8C67F /* OneParkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A74F075126CA9F0D00F8C67F /* OneParkUITests.swift */,
+				A74F075326CA9F0D00F8C67F /* Info.plist */,
+			);
+			path = OneParkUITests;
+			sourceTree = "<group>";
+		};
+		A74F076326CACC1D00F8C67F /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				07FBEA1D26E535C500E5C6A0 /* Fonts */,
+				07CD059226D310B80080144C /* Popups */,
+				079645A526D172A50063E7A1 /* Interactive */,
+				A742BA8F26CD7CD9003D2281 /* CircleProgressButtonModifier.swift */,
+				07B7987926E3CDFB00CC6D46 /* CardFieldModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		A74F076826CAD33700F8C67F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				07CD059A26D384690080144C /* UI */,
+				0796459F26D119320063E7A1 /* Constants */,
+				0796459B26D118080063E7A1 /* User */,
+				07CD059B26D384880080144C /* MapUtility.swift */,
+				075F6F8F26CF0E8400855988 /* CryptoUtility.swift */,
+				07886DF926E7EF2F0009D62D /* ValidationUtility.swift */,
+				07D8AE7526E18D2D004488E8 /* DummyObjects.swift */,
+				07BD4A5D26E4BFED004B00C5 /* Operators.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A7C95F9A26CB13C900881EC3 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				075C3E2D26D4255900257274 /* 70085-success.json */,
+				075C3E2926D4232500257274 /* successAnimation.json */,
+				A7C95F9B26CB13E500881EC3 /* loadingAnimation.json */,
+				A7C95F9D26CB145300881EC3 /* LottieView.swift */,
+				A7C95F9F26CB163F00881EC3 /* LoadingAnimationView.swift */,
+				075C3E2B26D423A400257274 /* SuccessAnimationView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		A7C95FAC26CB33F300881EC3 /* DataStores */ = {
+			isa = PBXGroup;
+			children = (
+				07D8AE6B26E104FE004488E8 /* Observables */,
+				A7C95FAD26CB33FD00881EC3 /* Environment */,
+			);
+			path = DataStores;
+			sourceTree = "<group>";
+		};
+		A7C95FAD26CB33FD00881EC3 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				07886DF726E7EEF20009D62D /* ApplicationViewModel.swift */,
+				076A642926CFF07400DD143B /* ParkViewModel.swift */,
+				A7C95FAE26CB340D00881EC3 /* UserViewModel.swift */,
+				07550A2B26D7AB6600B17D4B /* NotificationStore.swift */,
+				075F6F8926CF0E5300855988 /* SignInMethods */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74F072B26CA9F0B00F8C67F /* OnePark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74F075626CA9F0D00F8C67F /* Build configuration list for PBXNativeTarget "OnePark" */;
+			buildPhases = (
+				A74F072826CA9F0B00F8C67F /* Sources */,
+				A74F072926CA9F0B00F8C67F /* Frameworks */,
+				A74F072A26CA9F0B00F8C67F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnePark;
+			packageProductDependencies = (
+				07DC357526E77D2700FE4417 /* Lottie */,
+				07DC357826E77D3000FE4417 /* SDWebImageSwiftUI */,
+				07DC357B26E77D3B00FE4417 /* Contentful */,
+				07DC357F26E782C800FE4417 /* FirebaseAnalytics */,
+				07DC358126E782C800FE4417 /* FirebaseAnalyticsSwift-Beta */,
+				07DC358326E782C800FE4417 /* FirebaseAuth */,
+				07DC358526E782C800FE4417 /* FirebaseDatabase */,
+				07DC358726E782C800FE4417 /* FirebaseFirestore */,
+				07DC358926E782C800FE4417 /* FirebaseFirestoreSwift-Beta */,
+				07DC358B26E782C800FE4417 /* FirebaseMessaging */,
+				07DC358D26E782C800FE4417 /* FirebaseStorage */,
+				07DC358F26E782C800FE4417 /* FirebaseStorageSwift-Beta */,
+				07DC359126E7DB8A00FE4417 /* FirebaseDatabaseSwift-Beta */,
+			);
+			productName = OnePark;
+			productReference = A74F072C26CA9F0B00F8C67F /* OnePark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A74F074126CA9F0D00F8C67F /* OneParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74F075926CA9F0D00F8C67F /* Build configuration list for PBXNativeTarget "OneParkTests" */;
+			buildPhases = (
+				A74F073E26CA9F0D00F8C67F /* Sources */,
+				A74F073F26CA9F0D00F8C67F /* Frameworks */,
+				A74F074026CA9F0D00F8C67F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74F074426CA9F0D00F8C67F /* PBXTargetDependency */,
+			);
+			name = OneParkTests;
+			productName = OneParkTests;
+			productReference = A74F074226CA9F0D00F8C67F /* OneParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A74F074C26CA9F0D00F8C67F /* OneParkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74F075C26CA9F0D00F8C67F /* Build configuration list for PBXNativeTarget "OneParkUITests" */;
+			buildPhases = (
+				A74F074926CA9F0D00F8C67F /* Sources */,
+				A74F074A26CA9F0D00F8C67F /* Frameworks */,
+				A74F074B26CA9F0D00F8C67F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74F074F26CA9F0D00F8C67F /* PBXTargetDependency */,
+			);
+			name = OneParkUITests;
+			productName = OneParkUITests;
+			productReference = A74F074D26CA9F0D00F8C67F /* OneParkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74F072426CA9F0B00F8C67F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A74F072B26CA9F0B00F8C67F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A74F074126CA9F0D00F8C67F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A74F072B26CA9F0B00F8C67F;
+					};
+					A74F074C26CA9F0D00F8C67F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A74F072B26CA9F0B00F8C67F;
+					};
+				};
+			};
+			buildConfigurationList = A74F072726CA9F0B00F8C67F /* Build configuration list for PBXProject "OnePark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A74F072326CA9F0B00F8C67F;
+			packageReferences = (
+				07DC357426E77D2700FE4417 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				07DC357726E77D3000FE4417 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				07DC357A26E77D3B00FE4417 /* XCRemoteSwiftPackageReference "contentful.swift" */,
+				07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A74F072D26CA9F0B00F8C67F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74F072B26CA9F0B00F8C67F /* OnePark */,
+				A74F074126CA9F0D00F8C67F /* OneParkTests */,
+				A74F074C26CA9F0D00F8C67F /* OneParkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74F072A26CA9F0B00F8C67F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C95F9C26CB13E500881EC3 /* loadingAnimation.json in Resources */,
+				07D8AE7426E18B9B004488E8 /* bungee.ttf in Resources */,
+				07D7900826E35A810095BACA /* rubik.ttf in Resources */,
+				075C3E2A26D4232500257274 /* successAnimation.json in Resources */,
+				075C3E2E26D4255900257274 /* 70085-success.json in Resources */,
+				A74F073726CA9F0C00F8C67F /* Preview Assets.xcassets in Resources */,
+				07DC359626E7E8DA00FE4417 /* Assets.xcassets in Resources */,
+				07DE6B2026D69ABA00AF8C69 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F074026CA9F0D00F8C67F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F074B26CA9F0D00F8C67F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74F072826CA9F0B00F8C67F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C904D526ED294200B7C3EE /* UserVehicleInfoView.swift in Sources */,
+				075F6F9026CF0E8400855988 /* SignInMethodsController.swift in Sources */,
+				075FC9002700753F00CF46BD /* Page.swift in Sources */,
+				075F6F9526CF148300855988 /* MainView.swift in Sources */,
+				A7C95FA026CB163F00881EC3 /* LoadingAnimationView.swift in Sources */,
+				07550AB026DB9EFA00B17D4B /* HttpConstants.swift in Sources */,
+				A74F073C26CA9F0C00F8C67F /* OnePark.xcdatamodeld in Sources */,
+				0796459826D113370063E7A1 /* DateUtility.swift in Sources */,
+				07CD05A126D386560080144C /* ParkAnnotation.swift in Sources */,
+				A7376A1726CBE05F00E3F493 /* HomeView.swift in Sources */,
+				07EE677A26DD3427009B7E46 /* ParkTogglesCard.swift in Sources */,
+				07D7900A26E367EF0095BACA /* AddPropertyView.swift in Sources */,
+				A74F076A26CAD34D00F8C67F /* FeedbackUtility.swift in Sources */,
+				07D8AE6426E0E017004488E8 /* UserVehicle.swift in Sources */,
+				A7C95F9E26CB145300881EC3 /* LottieView.swift in Sources */,
+				079645A726D172BF0063E7A1 /* OverlayProgressModifier.swift in Sources */,
+				07886DFF26E8C2300009D62D /* KeyboardPicker.swift in Sources */,
+				079645B426D264C80063E7A1 /* SideNotesCard.swift in Sources */,
+				07757C7426DDB84600C0626A /* CircleProgress.swift in Sources */,
+				07C904CF26E9356400B7C3EE /* VehicleCardItem.swift in Sources */,
+				A71EC0E426CC6407007A4890 /* UserInfo.swift in Sources */,
+				07CD059926D333560080144C /* ParkingUser.swift in Sources */,
+				07D8AE6226E0DFB6004488E8 /* FuelType.swift in Sources */,
+				A7C95FA226CB1F4500881EC3 /* BlurView.swift in Sources */,
+				07A82A1726CF326C00242786 /* DataError.swift in Sources */,
+				07D7900626E3566A0095BACA /* LicensePlate.swift in Sources */,
+				07D8AE6826E100B7004488E8 /* AnnotationCardView.swift in Sources */,
+				076A642626CF4B0800DD143B /* ProfileView.swift in Sources */,
+				07D8AE6E26E1062C004488E8 /* VehicleRepository.swift in Sources */,
+				07D8AE7E26E19FAC004488E8 /* AcessConstants.swift in Sources */,
+				07D8AE7026E10CA7004488E8 /* VehicleType.swift in Sources */,
+				07CD059426D310C60080144C /* BlurViewCardModifier.swift in Sources */,
+				07550AA926DAF8B000B17D4B /* NotificationOptions.swift in Sources */,
+				07886DFC26E7EF650009D62D /* ValidationError.swift in Sources */,
+				07550AAD26DB964B00B17D4B /* NotificationOperation.swift in Sources */,
+				A7C95FB126CBC99F00881EC3 /* UIResponsiveUtility.swift in Sources */,
+				076A642A26CFF07400DD143B /* ParkViewModel.swift in Sources */,
+				076A643526D00E6900DD143B /* ParkingMode.swift in Sources */,
+				0796459E26D118F10063E7A1 /* PasswordValidation.swift in Sources */,
+				07CD059126D307860080144C /* ParkManagerMapView.swift in Sources */,
+				07D8AE5826DEF752004488E8 /* MapExtension.swift in Sources */,
+				07C904D126ED132E00B7C3EE /* ApplicationError.swift in Sources */,
+				075F6F9126CF0E8400855988 /* CryptoUtility.swift in Sources */,
+				A74F073926CA9F0C00F8C67F /* Persistence.swift in Sources */,
+				07D8AE7626E18D2D004488E8 /* DummyObjects.swift in Sources */,
+				079645A126D119410063E7A1 /* PasswordRules.swift in Sources */,
+				07B7987A26E3CDFB00CC6D46 /* CardFieldModifier.swift in Sources */,
+				079645A326D119720063E7A1 /* PasswordStrength.swift in Sources */,
+				07C904D726EFC5A300B7C3EE /* UserProgress.swift in Sources */,
+				07D8AE6A26E104F5004488E8 /* VehicleViewModel.swift in Sources */,
+				07FBEA1F26E535D700E5C6A0 /* LabelTextModifier.swift in Sources */,
+				A74F073226CA9F0B00F8C67F /* ContentView.swift in Sources */,
+				07A82A1926CF366900242786 /* ParkFinderMapView.swift in Sources */,
+				076A642426CF49A300DD143B /* TabBarView.swift in Sources */,
+				079645B226D25A790063E7A1 /* StringExtension.swift in Sources */,
+				A744851426E56AD30059252C /* BindingExtension.swift in Sources */,
+				075C3E2C26D423A400257274 /* SuccessAnimationView.swift in Sources */,
+				07550A3826D8C83D00B17D4B /* RegisterAltView.swift in Sources */,
+				075F6F8C26CF0E5300855988 /* SignInWithApple.swift in Sources */,
+				075FC8FE2700622000CF46BD /* TabBarViewStyle.swift in Sources */,
+				07C145B326D3E57500E562BE /* BottomCardModifier.swift in Sources */,
+				07EE678026DD553A009B7E46 /* BouncyButtonStyle.swift in Sources */,
+				07EE677C26DD4223009B7E46 /* ParkingModeCard.swift in Sources */,
+				A74F076226CA9F7300F8C67F /* LoginView.swift in Sources */,
+				07CD058C26D293260080144C /* CloseButton.swift in Sources */,
+				07C904D326ED261300B7C3EE /* ParkConfirmationCardView.swift in Sources */,
+				075C3E3026D44FE400257274 /* MapView.swift in Sources */,
+				076A642226CF495A00DD143B /* HomeContainerView.swift in Sources */,
+				07BD4A5E26E4BFED004B00C5 /* Operators.swift in Sources */,
+				A74F073026CA9F0B00F8C67F /* OneParkApp.swift in Sources */,
+				A71EC0E126CC627F007A4890 /* UserRepository.swift in Sources */,
+				A7C95FAF26CB340D00881EC3 /* UserViewModel.swift in Sources */,
+				07D8AE6026E0D84D004488E8 /* Vehicle.swift in Sources */,
+				076A642C26CFF17B00DD143B /* ParkRepository.swift in Sources */,
+				0796459A26D118040063E7A1 /* PasswordUtility.swift in Sources */,
+				07886DFA26E7EF2F0009D62D /* ValidationUtility.swift in Sources */,
+				079645A926D177E20063E7A1 /* ShapeType.swift in Sources */,
+				07D7900C26E38C1E0095BACA /* KeyValuePair.swift in Sources */,
+				07D8AE5E26DF1AC2004488E8 /* FieldCard.swift in Sources */,
+				07D8AE5C26DF1A11004488E8 /* PersonalInfoDataView.swift in Sources */,
+				07CD05A326D389310080144C /* ParkModeAnnotationView.swift in Sources */,
+				07EE678226DD5739009B7E46 /* DrivingTowardsList.swift in Sources */,
+				075F6F8B26CF0E5300855988 /* LinearGradientCard.swift in Sources */,
+				07D8AE6626E0FA71004488E8 /* User.swift in Sources */,
+				079645AB26D178290063E7A1 /* ShapeUtility.swift in Sources */,
+				07D7900426E1BD910095BACA /* PropertyManagerView.swift in Sources */,
+				07550A2C26D7AB6600B17D4B /* NotificationStore.swift in Sources */,
+				07DE6B1E26D663C000AF8C69 /* AuthError.swift in Sources */,
+				07CD059C26D384880080144C /* MapUtility.swift in Sources */,
+				07757C7A26DE6ECF00C0626A /* DoubleExtension.swift in Sources */,
+				075C3E3226D4680E00257274 /* CardDragHandle.swift in Sources */,
+				07886DF826E7EEF20009D62D /* ApplicationViewModel.swift in Sources */,
+				07550AA726DA8F1000B17D4B /* DataSnapshotExtension.swift in Sources */,
+				A742BA9026CD7CD9003D2281 /* CircleProgressButtonModifier.swift in Sources */,
+				07550AAB26DAFF0D00B17D4B /* NotificationOptionsRepository.swift in Sources */,
+				079645AE26D17EC10063E7A1 /* ColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F073E26CA9F0D00F8C67F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F074726CA9F0D00F8C67F /* OneParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F074926CA9F0D00F8C67F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F075226CA9F0D00F8C67F /* OneParkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A74F074426CA9F0D00F8C67F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74F072B26CA9F0B00F8C67F /* OnePark */;
+			targetProxy = A74F074326CA9F0D00F8C67F /* PBXContainerItemProxy */;
+		};
+		A74F074F26CA9F0D00F8C67F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74F072B26CA9F0B00F8C67F /* OnePark */;
+			targetProxy = A74F074E26CA9F0D00F8C67F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A74F075426CA9F0D00F8C67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A74F075526CA9F0D00F8C67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74F075726CA9F0D00F8C67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = OnePark/OnePark.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OnePark/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NWX4HVR6Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OnePark/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoangeli.onepark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A74F075826CA9F0D00F8C67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = OnePark/OnePark.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OnePark/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NWX4HVR6Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OnePark/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoangeli.onepark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A74F075A26CA9F0D00F8C67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NWX4HVR6Z;
+				INFOPLIST_FILE = OneParkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepark.OneParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePark.app/OnePark";
+			};
+			name = Debug;
+		};
+		A74F075B26CA9F0D00F8C67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NWX4HVR6Z;
+				INFOPLIST_FILE = OneParkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepark.OneParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePark.app/OnePark";
+			};
+			name = Release;
+		};
+		A74F075D26CA9F0D00F8C67F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NWX4HVR6Z;
+				INFOPLIST_FILE = OneParkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepark.OneParkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnePark;
+			};
+			name = Debug;
+		};
+		A74F075E26CA9F0D00F8C67F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5NWX4HVR6Z;
+				INFOPLIST_FILE = OneParkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepark.OneParkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnePark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74F072726CA9F0B00F8C67F /* Build configuration list for PBXProject "OnePark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F075426CA9F0D00F8C67F /* Debug */,
+				A74F075526CA9F0D00F8C67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74F075626CA9F0D00F8C67F /* Build configuration list for PBXNativeTarget "OnePark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F075726CA9F0D00F8C67F /* Debug */,
+				A74F075826CA9F0D00F8C67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74F075926CA9F0D00F8C67F /* Build configuration list for PBXNativeTarget "OneParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F075A26CA9F0D00F8C67F /* Debug */,
+				A74F075B26CA9F0D00F8C67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74F075C26CA9F0D00F8C67F /* Build configuration list for PBXNativeTarget "OneParkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F075D26CA9F0D00F8C67F /* Debug */,
+				A74F075E26CA9F0D00F8C67F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07DC357426E77D2700FE4417 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		07DC357726E77D3000FE4417 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		07DC357A26E77D3B00FE4417 /* XCRemoteSwiftPackageReference "contentful.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/contentful/contentful.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07DC357526E77D2700FE4417 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357426E77D2700FE4417 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		07DC357826E77D3000FE4417 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357726E77D3000FE4417 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		07DC357B26E77D3B00FE4417 /* Contentful */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357A26E77D3B00FE4417 /* XCRemoteSwiftPackageReference "contentful.swift" */;
+			productName = Contentful;
+		};
+		07DC357F26E782C800FE4417 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		07DC358126E782C800FE4417 /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		07DC358326E782C800FE4417 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		07DC358526E782C800FE4417 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		07DC358726E782C800FE4417 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		07DC358926E782C800FE4417 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		07DC358B26E782C800FE4417 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		07DC358D26E782C800FE4417 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		07DC358F26E782C800FE4417 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+		07DC359126E7DB8A00FE4417 /* FirebaseDatabaseSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07DC357E26E782C800FE4417 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A74F073A26CA9F0C00F8C67F /* OnePark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A74F073B26CA9F0C00F8C67F /* OnePark.xcdatamodel */,
+			);
+			currentVersion = A74F073B26CA9F0C00F8C67F /* OnePark.xcdatamodel */;
+			path = OnePark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A74F072426CA9F0B00F8C67F /* Project object */;
+}

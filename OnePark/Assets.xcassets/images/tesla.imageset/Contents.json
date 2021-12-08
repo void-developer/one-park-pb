@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "toppng.com-tesla-model-3-black-913x320.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "toppng.com-tesla-model-3-black-913x320-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "toppng.com-tesla-model-3-black-913x320-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
